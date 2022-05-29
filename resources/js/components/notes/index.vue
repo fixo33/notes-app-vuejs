@@ -50,7 +50,7 @@ const deleteNote = (id) => {
     <!-- <div class="card-header"> -->
     <div class="row">
         <div class="col">
-            <h4>App de notas</h4>
+            <h4>Note List</h4>
         </div>
         <div class="col-auto">
             <button class="btn btn-primary" @click="newNote">Add Note</button>

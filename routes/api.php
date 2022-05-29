@@ -31,9 +31,3 @@ Route::post('private-info', function () {
 })->middleware('auth:sanctum');
 
 Route::resource('notes', NoteController::class)->middleware('auth:sanctum');
-
-// Route::get('/notes', [NoteController::class,'index']);
-// Route::post('/notes', [NoteController::class,'store']);
-// Route::get('/note/{id}', [NoteController::class,'edit']);
-// Route::post('/note/{id}', [NoteController::class,'update']);
-// Route::get('/note/delete/{id}', [NoteController::class,'destroy']);
